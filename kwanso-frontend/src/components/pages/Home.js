@@ -47,7 +47,7 @@ const Home = () => {
         }
         <div className="row">
 
-          {task.map((task, index) => (
+          {task.map((task) => (
             <div className="col-4 mb-2">
               <div class="card shadow">
                 <input type="checkbox" className="m-2" value={checkbox} onChange={() => deleteMultiple(task._id)} />
